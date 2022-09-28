@@ -37,5 +37,14 @@ p{
 }
 /* Endnavbar */
 
-
 /* Endheader  */
+
+/* main */
+/* jumbotron */
+.btn_secondary{
+    background-color: var(--btn_secondary);
+}
+
+
+/* Endjumbotron */
+/* Endmain */
