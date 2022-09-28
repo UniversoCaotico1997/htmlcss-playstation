@@ -1,0 +1,18 @@
+/* Utility */
+:root{
+   --layout_primary:#FFFFFF;
+   --layout_secondary:#00439C;
+   --layout_brand:#000000;
+   --btn_primary:#2D64E6;
+   --btn_secondary:#CD3D0F;
+   --btn_navbar:#363636;
+   --btn_plus:#D9DADC;
+   --btn_now:#F5F5F5;
+}
+/* EndUtility */
+
+
+.brand{
+    background-color: var(--btn_navbar);
+    font-family: Arial, Helvetica, sans-serif;
+}
