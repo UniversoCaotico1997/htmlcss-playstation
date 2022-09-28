@@ -8,6 +8,9 @@
    --btn_navbar:#363636;
    --btn_plus:#D9DADC;
    --btn_now:#F5F5F5;
+   --text_primary:#727272;
+   --text_no_limits:#0072CE;
+
 }
 img{
     max-width: 100%;
@@ -47,4 +50,21 @@ p{
 
 
 /* Endjumbotron */
+
+/* playstation5 */
+
+/* <!-- info_playstation --> */
+.text_no_limits{
+    color: var(--text_no_limits);
+}
+.text_primary{
+    color: var(--text_primary);
+}
+
+/* <!-- /.info_playstation --> */
+
+
+
+
+/* Endplaystation5 */
 /* Endmain */
