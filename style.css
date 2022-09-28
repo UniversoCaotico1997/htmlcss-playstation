@@ -12,11 +12,17 @@
 img{
     max-width: 100%;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 16px;
+}
 /* EndUtility */
 
 /* header */
 .brand{
-    background-color: var(--btn_navbar);
+    background-color: var(--layout_brand);
     font-family: Arial, Helvetica, sans-serif;
 }
 /* navbar */
