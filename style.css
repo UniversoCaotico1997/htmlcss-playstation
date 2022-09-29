@@ -50,6 +50,7 @@ p{
 /* Endheader  */
 
 /* main */
+
 /* jumbotron */
 .bg_carousell{
     background-image: url(./img/jumbo-bg.png);
@@ -62,7 +63,6 @@ p{
     width: 30%;
 }
 
-
 .btn_secondary{
     background-color: var(--btn_secondary);
 }
@@ -72,15 +72,16 @@ p{
 
 /* playstation5 */
 
-/* <!-- info_playstation --> */
+/* info_playstation */
+
 .text_no_limits{
     color: var(--text_no_limits);
-}
+} 
 .text_primary{
     color: var(--text_primary);
 }
 
-/* <!-- /.info_playstation --> */
+/* Endinfo_playstation */
 
 .btn_primary{
     background-color: var(--btn_primary);
