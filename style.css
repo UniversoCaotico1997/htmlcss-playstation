@@ -15,18 +15,25 @@
 img{
     max-width: 100%;
 }
+h2, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h2{
     font-size: 40px;
 }
 p{
     font-size: 16px;
 }
+
 /* EndUtility */
 
 /* header */
 .brand{
     background-color: var(--layout_brand);
-    font-family: Arial, Helvetica, sans-serif;
+}
+.brand img{
+    width: 10%;
 }
 /* navbar */
 .size{
@@ -44,6 +51,18 @@ p{
 
 /* main */
 /* jumbotron */
+.bg_carousell{
+    background-image: url(./img/jumbo-bg.png);
+    background-size: cover;
+}
+.box_text{
+    padding: 3rem 0;
+}
+.box_text img{
+    width: 30%;
+}
+
+
 .btn_secondary{
     background-color: var(--btn_secondary);
 }
@@ -63,8 +82,19 @@ p{
 
 /* <!-- /.info_playstation --> */
 
-
-
+.btn_primary{
+    background-color: var(--btn_primary);
+}
 
 /* Endplaystation5 */
+
+
+/* itTakesTwo */
+.takes_two .bg_carousell{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+
+}
+
+/* EnditTakesTwo */
 /* Endmain */
