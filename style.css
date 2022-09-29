@@ -33,7 +33,7 @@ p{
 .brand{
     background-color: var(--layout_brand);
 }
-.brand img{
+.logo_sony img{
     width: 10%;
 }
 /* navbar */
@@ -67,6 +67,8 @@ li img{
 .btn_secondary{
     background-color: var(--btn_secondary);
 }
+
+
 /* Endjumbotron */
 
 
@@ -91,12 +93,12 @@ li img{
 /* Endplaystation5 */
 
 
-/* itTakesTwo */
+/* takesTwo */
 .takes_two .bg_carousell{
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
 }
-/* EnditTakesTwo */
+/* EndtakesTwo */
 
 
 /* playstation_plus */
@@ -122,7 +124,18 @@ li img{
 }
 /* endplaystation_plus */
 
+/* social */
+.social .container .row img{
+    width: 60%;
+}
+
+/* Endsocila */
 /* Endmain */
+
+
+
+
+
 
 /* footer */
 .playstation_link{
