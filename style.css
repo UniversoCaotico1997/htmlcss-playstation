@@ -33,9 +33,11 @@ p{
 .brand{
     background-color: var(--layout_brand);
 }
-.logo_sony img{
+.brand img{
     width: 10%;
+    padding: 1rem;
 }
+
 /* navbar */
 li img{
     width: 10px;
@@ -116,6 +118,9 @@ li img{
     background-color: var(--btn_plus);
     color: var(--text_no_limits);
 }
+.img_box_card{
+    
+} 
 /* Endplaystation_plus */
 
 /* playstation_store */
@@ -125,11 +130,10 @@ li img{
 /* endplaystation_plus */
 
 /* social */
-.social .container .row img{
-    width: 60%;
-}
+
 
 /* Endsocila */
+
 /* Endmain */
 
 
