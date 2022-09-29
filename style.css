@@ -52,7 +52,7 @@ p{
 /* main */
 
 /* jumbotron */
-.bg_carousell{
+.jumbotron .bg_carousell{
     background-image: url(./img/jumbo-bg.png);
     background-size: cover;
 }
@@ -94,8 +94,28 @@ p{
 .takes_two .bg_carousell{
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
-
 }
 
 /* EnditTakesTwo */
+
+/* playstation4 */
+
+/* Endplaystation4*/
+
+/* playstation_plus */
+.playstation_plus {
+    background-color: #BEBCBB;
+}
+/* Endplaystation_plus */
+.logo_box_card img{
+    width: 50%;
+    padding-top: 2rem;
+}
+.text_primary{
+    color: var(--text_primary);
+}
+.btn_plus{
+    background-color: var(--btn_plus);
+    color: var(--text_no_limits);
+}
 /* Endmain */
