@@ -37,7 +37,7 @@ p{
     width: 10%;
 }
 /* navbar */
-.size{
+li img{
     width: 10px;
     margin-top: 4px;
 }
@@ -116,13 +116,36 @@ p{
 }
 /* Endplaystation_plus */
 
-
-
-
 /* playstation_store */
 .playstation_now{
     background-color: var(--bg_color_now);
 }
-
 /* endplaystation_plus */
+
 /* Endmain */
+
+/* footer */
+.playstation_link{
+    background-color: var(--layout_secondary);
+}
+.logo_psn .size{
+    width: 100px;   
+}
+.country_region img{
+    width: 3%;
+}
+ul {
+    list-style-type: none;
+    }
+li a{
+    color: white;
+    text-decoration: none;
+}
+.sie_logo img{
+    width: 20%;
+    padding-bottom: 1rem;
+}
+.sie_logo p{
+    padding-bottom: 5rem;
+}
+/* endfooter */
