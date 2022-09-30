@@ -46,11 +46,6 @@ p{
     border: 0;
     margin:0;
 }
-li.nav.item.dropdown::marker{
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    text-transform: none;
-}
 
 li img{
     width: 10px;
