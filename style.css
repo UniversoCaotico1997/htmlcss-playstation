@@ -30,6 +30,9 @@ p{
 /* EndUtility */
 
 /* header */
+#site_header{
+    width: 100%;
+}
 .brand{
     background-color: var(--layout_brand);
 }
@@ -39,20 +42,33 @@ p{
 }
 
 /* navbar */
+.dropdown-toggle::after {
+    border: 0;
+    margin:0;
+}
+li.nav.item.dropdown::marker{
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+}
+
 li img{
     width: 10px;
-    margin-top: 4px;
+    
 }
 #lens{
     width: 20px;
     margin-top: 2px;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
 }
 /* Endnavbar */
 
 /* Endheader  */
 
 /* main */
+#site_main{
+    margin-top: 7rem;
+}
 
 /* jumbotron */
 .jumbotron .bg_carousell{
@@ -69,6 +85,11 @@ li img{
 .btn_secondary{
     background-color: var(--btn_secondary);
 }
+/* slidegame */
+.border_blue{
+    border: 1px solid blue;
+}
+/* endslidegame */
 
 
 /* Endjumbotron */
@@ -87,6 +108,14 @@ li img{
 }
 
 /* Endinfo_playstation */
+/* shop window */
+
+.effects{
+    width: 60%;
+    padding-top: 2rem;
+}
+
+/* endshopwindow */
 
 .btn_primary{
     background-color: var(--btn_primary);
@@ -118,9 +147,7 @@ li img{
     background-color: var(--btn_plus);
     color: var(--text_no_limits);
 }
-.img_box_card{
-    
-} 
+
 /* Endplaystation_plus */
 
 /* playstation_store */
